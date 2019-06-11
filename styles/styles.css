@@ -1,6 +1,5 @@
+
 /* Base Styles */
-
-
 
 body {
  background: #F8F4E3;
@@ -45,21 +44,43 @@ a {
     padding-bottom: 20px;
 }
 
-/* banner styles */
+/* banner and image styles */
 
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    filter: grayscale(45%);
 }
 
+.member-img {
+    filter: grayscale(80%);
+    width: 100%;
+    border: solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.member-img::after {
+    background-image: linear-gradient(bottom left, rgba(95, 26, 134, 0.61)rgba(248, 244, 227, 0.527));
+}
+
+.band-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(80%);
+    width: 85%;
+    border: solid, black;
+    border-radius: 10px;
+}
 
 /* nav styles */
  
 .main-nav {
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 75px;
 }
 
 .main-nav li{
@@ -104,7 +125,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 /* media queries */
 
