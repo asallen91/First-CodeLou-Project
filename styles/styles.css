@@ -4,7 +4,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #F8F4E3;
-    margin: 0;
+    margin: auto;
 }
 
 h1 {
@@ -23,11 +23,15 @@ a {
     text-decoration: none;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 .link {
     color: #2A2B2A;
     margin: 5px;
     padding: 10px;
-    background: rgba(156, 101, 0, 0.233);
+    background: rgb(235, 207, 156);
     border-radius: 5px;
 }
 
@@ -38,6 +42,11 @@ a {
     text-align: center;
     font-size: 20px;
     line-height: 1.8;
+}
+
+.about-content {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .about-wrapper {
@@ -58,7 +67,7 @@ a {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 25px;
-    background: rgba(156, 101, 0, 0.24);
+    background: rgb(235, 207, 156);
 }
 
 .footer-wrapper {
@@ -67,14 +76,16 @@ a {
 }
 
 .top-border {
-    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.33);
+    /* width: 1280px;
+    margin: auto; */
 }
 
 /* banner and image styles */
 
 .main-header {
     background:
-        linear-gradient(rgb(141, 27, 19), transparent 95%),
+        linear-gradient(rgba(109, 24, 18, 0.5), transparent),
         linear-gradient(0deg, #F8F4E3, transparent),
         url('../img/stage.jpg') no-repeat center;
     background-size: cover;
@@ -87,14 +98,20 @@ a {
     width: 50%;
     filter: grayscale(45%);
     opacity: 0.66;
+    
 }
+
+/* h1,
+.tagline {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+} */
 
 .member-img {
     filter: grayscale(85%);
     filter: brightness(26%);
     filter: saturate(45%);
     filter: blur(30%);
-    width: 100%;
+    width: 200px;
     border: solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
@@ -103,13 +120,13 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: grayscale(75%);
+    filter: grayscale(85%);
     filter: brightness(26%);
     filter: saturate(45%);
     filter: blur(13%);
-    width: 85%;
+    width: 70%;
     border: solid, black;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* nav styles */
@@ -117,6 +134,7 @@ a {
 .main-nav {
     text-align: center;
     text-transform: uppercase;
+    padding-top: 20px;
     padding-bottom: 75px;
 }
 
@@ -125,7 +143,8 @@ a {
     border: solid rgba(0, 0, 0);
     border-radius: 5px;
     display: inline;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* flexbox styles */
@@ -134,7 +153,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; 
 }
 
 .main-nav,
@@ -144,16 +163,14 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .member {
-    border: solid rgba(0, 0, 0, 0.5);
+    border: solid rgba(0, 0, 0, 0.75);
     text-align: center;
     margin: 25px auto;
     padding: 10px;
-    background: rgba(156, 101, 0, 0.24);
+    background: rgb(235, 207, 156);
     border-radius: 10px;
     flex-basis: 200px;
     font-size: 18px;
@@ -200,11 +217,6 @@ a {
     } 
 
     .member-content {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .about-content {
         padding-left: 15%;
         padding-right: 15%;
     }
