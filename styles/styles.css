@@ -32,6 +32,7 @@ ul {
     margin: 5px;
     padding: 10px;
     background: rgb(235, 207, 156);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
     border-radius: 5px;
 }
 
@@ -60,6 +61,7 @@ ul {
 
 .songs {
     border: solid black;
+    box-shadow: 0 0 17px rgba(0, 0, 0, .7);
     border-radius: 3px;
 }
 
@@ -98,7 +100,6 @@ ul {
     width: 50%;
     filter: grayscale(45%);
     opacity: 0.66;
-    
 }
 
 /* h1,
@@ -121,12 +122,35 @@ ul {
     margin-left: auto;
     margin-right: auto;
     filter: grayscale(85%);
-    filter: brightness(26%);
-    filter: saturate(45%);
-    filter: blur(13%);
+    filter: brightness(116%);
+    filter: saturate(120%);
     width: 70%;
     border: solid, black;
     border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.slideshow {
+    display: none;
+}
+
+/* Band IMG Fading */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
 }
 
 /* nav styles */
@@ -171,6 +195,7 @@ ul {
     margin: 25px auto;
     padding: 10px;
     background: rgb(235, 207, 156);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7);
     border-radius: 10px;
     flex-basis: 200px;
     font-size: 18px;
