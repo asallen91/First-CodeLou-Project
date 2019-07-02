@@ -2,7 +2,7 @@
 /* Base Styles */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
     background: #F8F4E3;
     margin: auto;
 }
@@ -20,7 +20,12 @@ h2 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #706C61;
+}
+
+a:hover {
+    color: #E5446D;
 }
 
 ul {
@@ -219,19 +224,10 @@ ul {
 
 @media (min-width: 768px) {
 
-    h1 {
-        font-size: 38px;
-        width: 30%;
-    }
-
+    h1,
     .tagline {
-        font-size: 36px;
-        width: 30%;
+        font-size: 38px;
     }
-
-     .logo {
-        width: 40%;
-    } 
 
     .member-content {
         padding-left: 15%;
