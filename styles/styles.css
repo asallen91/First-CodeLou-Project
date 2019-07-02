@@ -2,7 +2,7 @@
 /* Base Styles */
 
 body {
-    font-family: Cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Inknut Antiqua', serif;
     background: #F8F4E3;
     margin: auto;
 }
@@ -47,7 +47,7 @@ ul {
 .merch-section {
     text-align: center;
     font-size: 20px;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 .about-content {
@@ -190,6 +190,7 @@ ul {
 .member {
     border: solid rgba(0, 0, 0, 0.75);
     text-align: center;
+    line-height: 1.6;
     margin: 25px auto;
     padding: 10px;
     background: rgb(235, 207, 156);
