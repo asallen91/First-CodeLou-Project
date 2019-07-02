@@ -79,8 +79,6 @@ ul {
 
 .top-border {
     border-top: 1px solid rgba(0, 0, 0, 0.33);
-    /* width: 1280px;
-    margin: auto; */
 }
 
 /* banner and image styles */
@@ -101,11 +99,6 @@ ul {
     filter: grayscale(45%);
     opacity: 0.66;
 }
-
-/* h1,
-.tagline {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-} */
 
 .member-img {
     filter: grayscale(85%);
@@ -233,7 +226,6 @@ ul {
 
     .tagline {
         font-size: 36px;
-        /* padding-bottom: 15px; */
         width: 30%;
     }
 
