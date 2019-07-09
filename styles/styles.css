@@ -11,7 +11,11 @@ h1 {
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
+}
 
+.tagline,
+h1 {
+    text-shadow: 2px 2px #2A2B2A;
 }
 
 h2 {
@@ -43,8 +47,7 @@ ul {
 
 .about-content,
 .music-section,
-.shows-section,
-.merch-section {
+.shows-section {
     text-align: center;
     font-size: 20px;
     line-height: 1.5;
@@ -57,11 +60,6 @@ ul {
 
 .about-wrapper {
     padding-top: 50px;
-}
-
-.main-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .songs {
@@ -94,6 +92,8 @@ ul {
         linear-gradient(0deg, #F8F4E3, transparent),
         url('../img/stage.jpg') no-repeat center;
     background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .logo {
