@@ -13,9 +13,8 @@ h1 {
     text-transform: uppercase;
 }
 
-.tagline,
 h1,
-h2 {
+.tagline {
     text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -226,9 +225,12 @@ ul {
 
 @media (min-width: 768px) {
 
-    h1,
-    .tagline {
+    h1 {
         font-size: 38px;
+    }
+
+    .tagline {
+        font-size: 32px;
     }
 
     .member-content {
@@ -238,7 +240,7 @@ ul {
 }
 
 @media (min-width: 1023px) {
-
+    
     .about-content {
         padding-top: 50px;
     }
@@ -246,7 +248,8 @@ ul {
     .header-container {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-content: center;
     }
 
     .member-content {
