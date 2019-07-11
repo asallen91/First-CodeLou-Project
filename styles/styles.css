@@ -92,7 +92,6 @@ ul {
         linear-gradient(0deg, #F8F4E3, transparent),
         url('../img/stage.jpg') no-repeat center;
     background-size: cover;
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
