@@ -241,6 +241,11 @@ ul {
 
 @media (min-width: 1023px) {
     
+    h1,
+    .tagline {
+        width: 25%;
+    }
+
     .about-content {
         padding-top: 50px;
     }
